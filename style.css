@@ -9,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: whitesmoke;
     border-radius: 25%;
     padding: 25px; 
 
@@ -20,10 +20,19 @@ body {
     align-items: center;
     max-width: 450px;
     width: 100%;
-    background-color: beige;
+    background-color: FFFED3;
     padding: 25px;
     box-shadow: 5px 5px 10px rgba(126, 23, 23, 0.1);
-
+    position: relative;
+}
+.UI-profile::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35%;
+    width: 100%;
+    background-color:#2e86c1  ;
 }
 .image{
     position: relative;
@@ -73,7 +82,7 @@ body {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    margin: 0 9px;
+    margin: 0 12px;
     background-color: rgb(3, 15, 26);
     text-decoration: none;
 }
@@ -86,7 +95,7 @@ body {
     color: white;
     font-size: 14px;
     font-weight: 300px;
-    margin: 0 2px;
+    margin: 0 10px;
     border: none;
     border-radius: 20px;
     padding: 5px 20px;
@@ -95,4 +104,21 @@ body {
 }
 .buttons .button:hover{
     background-color: rgb(21, 143, 143);
+}
+.UI-profile .analytics{
+   display: flex;
+   align-items: center;
+   margin-top: 30px;
+
+}
+.analytics .data{
+    display: flex;
+    align-items: center;
+    color: #333;
+    padding: 0 20px;
+    border-right: 2px solid black;
+}
+.data i {
+    font-size: 15px;
+    margin-right: 5px;
 }
