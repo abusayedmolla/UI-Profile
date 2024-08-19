@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 25%;
+    padding: 25px; 
+
+}
+.UI-profile {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    max-width: 450px;
+    width: 100%;
+    background-color: beige;
+    padding: 25px;
+    box-shadow: 5px 5px 10px rgba(126, 23, 23, 0.1);
+
+}
+.image{
+    position: relative;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: rgb(40, 40, 90);
+    padding: 3px;
+    margin-bottom: 8px;
+}
+.image .my-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 0px solid white;
+    
+}
+.UI-profile .text{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+.text .name{
+    font-size: 25px;
+    font-weight: 600px;
+    
+
+}
+.text .job{
+    font-size: 15px;
+    font-weight: 600px;
+
+}
+.UI-profile .media-buttons{
+    display: flex;
+    align-items: center;
+    max-resolution: 10px;
+    
+
+}
+.media-buttons .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    font-size: 15px;
+    height: 20px;
+    width: 20px;
+    border-radius: 70%;
+    margin: 0 9px;
+    background-color: rgb(3, 15, 26);
+    text-decoration: none;
+}
+.UI-profile .buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.buttons .button{
+    color: white;
+    font-size: 14px;
+    font-weight: 300px;
+    border: none;
+    border-radius: 35%;
+    margin: 0 2px;
+    padding: 3PX 5PX;
+    background-color: blue;
+    cursor: pointer;
+}
+.buttons .button:hover{
+    background-color: rgb(21, 143, 143);
+}
